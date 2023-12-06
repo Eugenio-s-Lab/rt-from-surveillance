@@ -14,7 +14,7 @@ def left_eigenvector(R: pd.DataFrame)->pd.Series:
     w,vl,vr=scipy.linalg.eig(R.to_numpy(),left=True)
     v_star=vl[:,w.argmax()]/np.sum(vl[:,w.argmax()])
     v_star=pd.Series(v_star.real)  
-    v_star.set_axis(R.columns,inplace=True)
+    v_star=v_star.set_axis(R.columns)
     return v_star
 
 def infections_corrected(new_infections_departments: pd.DataFrame, v_star: pd.Series)->pd.Series:
