@@ -7,6 +7,6 @@ setup(
     description='Python implementation of the method described in https://arxiv.org/abs/2307.13798 (preprint)',
     author='Piero Birello',
     author_email='piero.birello@gmail.com',
-    url='https://github.com/Eugenio-s-Lab/rt-from-surveillance',
+    url='https://github.com/ev-modelers/rt-from-surveillance',
 )
 
