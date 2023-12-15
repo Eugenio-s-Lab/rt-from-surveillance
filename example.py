@@ -4,8 +4,6 @@ import pandas as pd
 import epyestim.covid19 as covid19
 import matplotlib.pyplot as plt
 
-print('ciao')
-
 # Colocation data
 colocation_matrix=pd.read_csv('Matrix_Example',index_col=0)    
 colocation_matrix.index=colocation_matrix.index.astype(str)
