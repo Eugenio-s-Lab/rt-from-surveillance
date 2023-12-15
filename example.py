@@ -4,6 +4,8 @@ import pandas as pd
 import epyestim.covid19 as covid19
 import matplotlib.pyplot as plt
 
+print('ciao')
+
 # Colocation data
 colocation_matrix=pd.read_csv('Matrix_Example',index_col=0)    
 colocation_matrix.index=colocation_matrix.index.astype(str)
@@ -21,6 +23,7 @@ si_distrb = covid19.generate_standard_si_distribution()
 # Insert your distribution of delay from infection to reporting. As an example, here we set a distribution of delay for COVID-19
 delay_distrb = covid19.generate_standard_infection_to_reporting_distribution()
 
+# Non-corrected estimate of the reproduction number (correction=False)
 estimated_R=corrected_rt_from_surveillance(colocation_matrix,
                                      departments_population,
                                      new_infections_departments,
@@ -30,6 +33,7 @@ estimated_R=corrected_rt_from_surveillance(colocation_matrix,
                                      smoothing_window=7,
                                      r_window_size=7)
 
+# Corrected estimate of the reproduction number (correction=True)
 estimated_R_corr=corrected_rt_from_surveillance(colocation_matrix,
                                      departments_population,
                                      new_infections_departments,
