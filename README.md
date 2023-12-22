@@ -9,5 +9,6 @@ Required inputs for the function 'corrected_rt_from_surveillance' are:
 * generation interval distribution and distribution of delay from infection to reporting.
 
 Further optional inputs are available.
-  
+
+To use our library, download the entire directory, then from surveillance_correction import corrected_rt_from_surveillance. 
 An example code and examples of input files can be found in this repository, in order to facilitate the use of the library.
