@@ -10,5 +10,5 @@ Required inputs for the function 'corrected_rt_from_surveillance' are:
 
 Further optional inputs are available.
 
-To use our library, download the entire repository. Place your code in the repository, and *from surveillance_correction import corrected_rt_from_surveillance*. 
+To use our library, download the entire repository. Add your code to the repository, and *from surveillance_correction import corrected_rt_from_surveillance*. 
 An example code and examples of input files can be found in this repository, in order to facilitate the use of the library.
