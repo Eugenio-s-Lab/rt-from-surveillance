@@ -11,7 +11,7 @@ Open-access link: https://rdcu.be/dFJgn
 
 Required inputs for the function 'corrected_rt_from_surveillance' are:
 * a time series of reported or estimated infections in a number of spatial patches the geographic region under study is divided into;
-* a co-location matrix, that accounts for the mobility patterns between the spatial patches;
+* a [co-location matrix](https://dataforgood.facebook.com/dfg/tools/colocation-maps), that accounts for the mobility patterns between the spatial patches;
 * the population of spatial patches;
 * generation interval distribution and distribution of delay from infection to reporting.
 
