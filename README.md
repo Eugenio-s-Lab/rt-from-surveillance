@@ -1,10 +1,11 @@
 # rt-from-surveillance
 
 This library implements the method to estimate the reproduction ratio of an infectious disease epidemic from surveillance data, accounting for the bias induced by the spatial structure of the epidemic. This method is described in the following publication:
+
 Birello, P., Re Fiorentin, M., Wang, B., Colizza, V. & Valdano, E.
 _Estimates of the reproduction ratio from epidemic surveillance may be biased in spatially structured populations._
-Nature Physics 20, 1204-1210 (2024)
-DOI: 10.1038/s41567-024-02471-7
+Nature Physics 20, 1204-1210 (2024).
+DOI: 10.1038/s41567-024-02471-7;
 Open-access link: https://rdcu.be/dFJgn
 
 
